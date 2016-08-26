@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wc-PH-LiB">
+                                <rect key="frame" x="20" y="455" width="37" height="30"/>
+                                <state key="normal" title="购买1"/>
+                                <connections>
+                                    <action selector="buyBtn1Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7qa-Dh-GPf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmm-QH-VNr">
+                                <rect key="frame" x="110" y="455" width="39" height="30"/>
+                                <state key="normal" title="购买2"/>
+                                <connections>
+                                    <action selector="buyBtn2Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="loJ-Eg-gxV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="db5-Kb-eZn">
+                                <rect key="frame" x="196" y="455" width="40" height="30"/>
+                                <state key="normal" title="购买3"/>
+                                <connections>
+                                    <action selector="buyBtn3Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="98a-8x-xsR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOZ-Iv-VVa">
+                                <rect key="frame" x="20" y="506" width="40" height="30"/>
+                                <state key="normal" title="购买4"/>
+                                <connections>
+                                    <action selector="buyBtn4Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dc7-2o-Vnt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vq7-sP-21k">
+                                <rect key="frame" x="110" y="506" width="40" height="30"/>
+                                <state key="normal" title="购买5"/>
+                                <connections>
+                                    <action selector="buyBtn5Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RaF-Ud-1cb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXX-4J-CP7">
+                                <rect key="frame" x="196" y="506" width="40" height="30"/>
+                                <state key="normal" title="购买6"/>
+                                <connections>
+                                    <action selector="buyBtn6Clicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1hY-ta-GTN"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="欢迎使用 IAPTerminator ！" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dq2-iL-hsA">
+                                <rect key="frame" x="20" y="20" width="551" height="371"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.0" green="0.71632457314133546" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aIJ-U3-ar8">
+                                <rect key="frame" x="99" y="557" width="60" height="30"/>
+                                <state key="normal" title="一键恢复"/>
+                                <connections>
+                                    <action selector="restoreBtnClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Qe-MK-j0O"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="buyBtn1" destination="4Wc-PH-LiB" id="ECy-DL-QWd"/>
+                        <outlet property="buyBtn2" destination="bmm-QH-VNr" id="urE-Xk-pnw"/>
+                        <outlet property="buyBtn3" destination="db5-Kb-eZn" id="3Wc-W2-Bah"/>
+                        <outlet property="buyBtn4" destination="HOZ-Iv-VVa" id="2gk-kY-TQL"/>
+                        <outlet property="buyBtn5" destination="Vq7-sP-21k" id="8Ui-xb-e4w"/>
+                        <outlet property="buyBtn6" destination="SXX-4J-CP7" id="AXT-2S-0s0"/>
+                        <outlet property="restoreBtn" destination="aIJ-U3-ar8" id="TY4-9p-65v"/>
+                        <outlet property="textView" destination="dq2-iL-hsA" id="Ode-jz-g8a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="429"/>
+        </scene>
+    </scenes>
+</document>
